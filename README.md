@@ -18,7 +18,7 @@ Steps:
       - eg : docker tag todoapp ankan/todoapp
   - docker push ankan/todoapp
 7. Stop container  
-  - docker stop <containerId>
+  - docker stop {containerId}
 8. delete container
   - docker rm <containerId>
 9. Pull image from dockerhub
