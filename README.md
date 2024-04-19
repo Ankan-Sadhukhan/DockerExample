@@ -1,7 +1,7 @@
 Steps:
 1. make a Dockerfile & put instructions
 2. make docker image of your of your application
-  - docker build -t <imagename>
+  - docker build -t {imagename}
 3. See all docker images
   - docker images | docker desktop
 4. Run the docker application
@@ -14,14 +14,14 @@ Steps:
   - docker login
   - create new repository in docker hub
   - Rename your local image name to docker hub repository name
-      - docker tag <imagename> <reponame>
+      - docker tag {imagename} {reponame}
       - eg : docker tag todoapp ankan/todoapp
   - docker push ankan/todoapp
 7. Stop container  
   - docker stop {containerId}
 8. delete container
-  - docker rm <containerId>
+  - docker rm {containerId}
 9. Pull image from dockerhub
-  - docker pull <name>
+  - docker pull {name}
 10. delete a image
-  - docker rmi -f <ImageId> (f - force)
+  - docker rmi -f {ImageId} (f - force)
