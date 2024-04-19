@@ -14,7 +14,7 @@ Steps:
   - docker login
   - create new repository in docker hub
   - Rename your local image name to docker hub repository name
-      - docker tag <imagename> <repo name>
+      - docker tag <imagename> <reponame>
       - eg : docker tag todoapp ankan/todoapp
   - docker push ankan/todoapp
 7. Stop container  
